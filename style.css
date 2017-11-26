@@ -1,0 +1,88 @@
+*, html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #00203F;
+	font-size: 19px;
+}
+
+div {
+	background-color: #292929;
+	color: #E6E6FA;
+	margin: auto;
+	margin-top: 16px;
+	width: 1152px;
+	
+	border-style: outset;
+	border-width: 3px;
+	border-color: #E6E6FA;
+}
+
+p {
+	padding: 0px 64px 32px 64px;
+}
+
+a {
+	color: #80EC24;
+}
+
+h1 {
+	padding: 16px 64px 0px 64px;
+	font-size: 32px;
+}
+
+/*The container with all menu items*/
+.menuContainer {
+	height: 64px;
+}
+
+/*A single menu item (link)*/
+.menuItem {
+	background-color: #222222;
+	
+	display: inline-block;
+	width: calc(25% - 2px);
+	height: 100%;
+	
+	color: #E6E6FA;
+	font-size: 46px;
+	text-align: center;
+	text-decoration: none;
+	
+	border-style: none solid none solid;
+	border-width: 1px;
+	border-color: #E6E6FA;
+}
+
+/*The current navigated menu item*/
+#currentItem{
+	background-color: #292929;
+	padding-bottom: 23px;
+	border-color: #292929;
+}
+
+.menuItem:hover {
+	background-color: #323232;
+}
+
+/*layout of the footer*/
+.footer {
+	background-color: #222222;
+	text-align: right;
+}
+
+#footerParagraph {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+/*layout for the images on the project pages*/
+.projectImage {
+	float: right;
+	width: 256px;
+	height: 256px;
+	margin-left: 15px;
+}
